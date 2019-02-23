@@ -1,0 +1,212 @@
+/* start doc 
+
+0095C0
+FA1F19
+222627
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: tahoma, sans-serif;
+}
+
+.content {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+}
+
+.cleaner {
+    clear: both;
+}
+
+/* start class header */
+.header {
+    width: 100%;
+    height: 115px;
+    background: #222627;
+    overflow: hidden;
+}
+
+.header .logo-name {
+    float: left;
+}
+
+.header .logo-name .head-name {
+    text-transform: uppercase;
+    font-size: 60px;
+    display: inline-block;
+    color: #fff;
+    padding-top: 17px;
+    float: right;
+
+}
+
+.header .logo-name .head-name .sm {
+    color: #FA1F19;
+    background: #fff;
+    letter-spacing: 3.5px;
+}
+
+
+.header .logo-name {
+    text-decoration: none;
+}
+
+.header .nav-bar ul {
+    list-style: none;
+    float: right;
+}
+
+.header .nav-bar ul li {
+    display: inline-block;
+    padding-top: 43px;
+}
+
+.header .nav-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.header .nav-bar ul li a:hover {
+    color: #FA1F19;
+}
+
+/* end class header */
+/* start class home */
+.home .hSecOne {
+    width: 33.333%;
+    height: 550px;
+    background: url("../images/bg.jpg") 50%50%;
+    background-size: cover;
+    float: left;
+
+
+}
+
+.home .hSecTwo {
+    width: 33.333%;
+    height: 550px;
+    background: url("../images/bg4.jpg") 50%50%;
+    background-size: cover;
+    float: left;
+
+
+}
+
+.home .hSecThree {
+    width: 33.333%;
+    height: 550px;
+    background: url("../images/bg2.jpg") 50%50%;
+    background-size: cover;
+    float: left;
+}
+
+/* end class home */
+/* start class about */
+#about-sm p {
+    text-align: center;
+    padding: 8px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #fff;
+    border-bottom: 3px dotted #FA1F19;
+}
+
+.about .leftSide {
+    width: 66.6%;
+    height: 848px;
+    background: #0095C0;
+    float: left;
+    font-size: 30px;
+    padding: 15px 1%;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.about .rightSide {
+    width: 33.3%;
+    padding: 15px 1%;
+    height: 848px;
+    background: #FA1F19;
+    float: left;
+    overflow: hidden;
+
+}
+
+.about .rightSide {
+    float: left;
+}
+
+.about .rightSide .item {
+    margin-bottom: 15px;
+}
+
+.about .rightSide .films .item p {
+    color: #222627;
+    background: #fff;
+    width: 100%;
+    height: 402px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 33px;
+
+
+}
+
+.about .rightSide .films .item p button {
+    width: 65%;
+    height: 14%;
+    border-radius: 15%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    background: #0095C0 ;
+    color: #fff;
+}
+
+.about .rightSide .films .item p button:hover {
+    background: #222627;
+    color: #fff;
+    outline: none;
+}
+
+.about .rightSide .films .item p button:active {
+    background: #222627;
+    color: #FA1F19;
+    outline: none;
+
+}
+
+/* end class about */
+/* start class footer */
+.footer {
+    width: 100%;
+    height: 100px;
+    background: #222627;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 30px;
+}
+.footer .hrt{
+    color: #f00;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer a:hover{
+    color: #0095C0;
+}
+/* end class footer */
